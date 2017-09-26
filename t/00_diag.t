@@ -16,6 +16,7 @@ $modules{$_} = $_ for qw(
   File::Which
   File::chdir
   Path::Tiny
+  Test2::API
   Test2::V0
   Test::Alien::Build
 );
