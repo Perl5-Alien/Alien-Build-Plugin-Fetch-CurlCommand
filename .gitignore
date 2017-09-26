@@ -1,2 +1,3 @@
 /Alien-Build-Plugin-Fetch-CurlCommand-*
 /.build
+/t/bin/*.json
