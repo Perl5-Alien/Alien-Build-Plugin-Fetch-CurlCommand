@@ -22,6 +22,8 @@ it may be desirable to try `curl` first.
 This plugin is not currently part of the [Alien::Build](https://metacpan.org/pod/Alien::Build) core, but the hope is that it
 will be declared stable enough in the near future to be included.
 
+Protocols supported: `http`, `https`, `ftp`.
+
 # PROPERTIES
 
 ## curl\_command
