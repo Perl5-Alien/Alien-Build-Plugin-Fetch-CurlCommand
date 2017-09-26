@@ -1,3 +1,4 @@
 /Alien-Build-Plugin-Fetch-CurlCommand-*
 /.build
 /t/bin/*.json
+/corpus/alien_build_plugin_fetch_curlcommand/record/new.*

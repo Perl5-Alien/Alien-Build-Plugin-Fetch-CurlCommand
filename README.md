@@ -15,8 +15,8 @@ Curl command line plugin for fetching files
 # DESCRIPTION
 
 This plugin provides a fetch based on the `curl` command.  It works with other fetch
-plugins (ie. the first one which succeeds will be used).  Most of the time the best plugin
-to use will be [Alien::Build::Plugin::Download::Negotiate](https://metacpan.org/pod/Alien::Build::Plugin::Download::Negotiate), but for some SSL bootstraping
+plugins (that is, the first one which succeeds will be used).  Most of the time the best plugin
+to use will be [Alien::Build::Plugin::Download::Negotiate](https://metacpan.org/pod/Alien::Build::Plugin::Download::Negotiate), but for some SSL bootstrapping
 it may be desirable to try `curl` first.
 
 This plugin is not currently part of the [Alien::Build](https://metacpan.org/pod/Alien::Build) core, but the hope is that it
@@ -32,7 +32,7 @@ The full path to the `curl` command.  The default is usually correct.
 
 ## ssl
 
-Ignored by this plugin.  Provided for compatbility with some other fetch plugins.
+Ignored by this plugin.  Provided for compatibility with some other fetch plugins.
 
 # SEE ALSO
 

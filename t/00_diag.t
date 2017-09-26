@@ -16,9 +16,12 @@ $modules{$_} = $_ for qw(
   File::Which
   File::chdir
   Path::Tiny
+  Scalar::Util
   Test2::API
   Test2::V0
   Test::Alien::Build
+  Text::ParseWords
+  YAML
 );
 
 
