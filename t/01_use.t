@@ -2,6 +2,7 @@ use Test2::V0 -no_srand => 1;
 sub require_ok ($);
 
 require_ok 'Alien::Build::Plugin::Fetch::CurlCommand';
+require_ok 'Alien::Build::Plugin::Fetch::Wget';
 
 done_testing;
 

@@ -7,6 +7,7 @@ pod_spelling_system:
   # intentionally
   stopwords:
     - ssl
+    - wget
 
 pod_coverage:
   skip: 0
@@ -14,3 +15,4 @@ pod_coverage:
   # for either Class or method.
   private:
     - Alien::Build::Plugin::Fetch::CurlCommand#init
+    - Alien::Build::Plugin::Fetch::Wget#init
