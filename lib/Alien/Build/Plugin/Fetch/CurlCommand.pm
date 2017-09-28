@@ -25,6 +25,9 @@ use File::chdir;
 
 =head1 DESCRIPTION
 
+B<NOTE>: This distribution has been merged into L<Alien::Build>.  See here:
+L<https://github.com/Perl5-Alien/Alien-Build>.  This version is no longer maintained.
+
 This plugin provides a fetch based on the C<curl> command.  It works with other fetch
 plugins (that is, the first one which succeeds will be used).  Most of the time the best plugin
 to use will be L<Alien::Build::Plugin::Download::Negotiate>, but for some SSL bootstrapping

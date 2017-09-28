@@ -14,6 +14,9 @@ Curl command line plugin for fetching files
 
 # DESCRIPTION
 
+**NOTE**: This distribution has been merged into [Alien::Build](https://metacpan.org/pod/Alien::Build).  See here:
+[https://github.com/Perl5-Alien/Alien-Build](https://github.com/Perl5-Alien/Alien-Build).  This version is no longer maintained.
+
 This plugin provides a fetch based on the `curl` command.  It works with other fetch
 plugins (that is, the first one which succeeds will be used).  Most of the time the best plugin
 to use will be [Alien::Build::Plugin::Download::Negotiate](https://metacpan.org/pod/Alien::Build::Plugin::Download::Negotiate), but for some SSL bootstrapping
